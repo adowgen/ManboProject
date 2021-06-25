@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/transparent"/>
+
+    <item>
+        <bitmap
+            android:gravity="right"
+            android:src="@drawable/setting_arrow_img"/>
+    </item>
+
+</layer-list>

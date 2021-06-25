@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/corlor_white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/signUp_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.23" />
+
+
+    <ImageView
+        android:id="@+id/signUp_myPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/signUp_guide"/>
+
+    <com.colorworld.manbocash.util.CircleImageView
+        android:id="@+id/signUp_cameraBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/camera_btn_img"
+        app:layout_constraintTop_toTopOf="@id/signUp_myPhoto"
+        app:layout_constraintLeft_toLeftOf="@id/signUp_myPhoto"
+        app:layout_constraintRight_toRightOf="@id/signUp_myPhoto"
+        app:layout_constraintBottom_toBottomOf="@id/signUp_myPhoto"/>
+
+
+
+    <TextView
+        android:id="@+id/signUp_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나의 프로필"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/home_cash_"
+        android:fontFamily="@font/spoqa_han_sans_bold"
+        app:layout_constraintLeft_toLeftOf="@id/signUp_myPhoto"
+        app:layout_constraintRight_toRightOf="@id/signUp_myPhoto"
+        app:layout_constraintBottom_toBottomOf="@id/signUp_myPhoto"/>
+
+
+    <TextView
+        android:id="@+id/signUp_text_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/kopubworld_dotum_light"
+        android:text="앱 이용시 표시되는 정보입니다\n랭킹 등에서 나의 모습이 나타납니다"
+        android:textColor="@color/home_cash_"
+        android:textSize="17dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUp_guide" />
+
+
+    <EditText
+        android:id="@+id/signUp_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:textSize="24dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/kopubworld_dotum_light"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:hint="닉네임 입력"
+        android:focusable="true"
+        app:layout_constraintTop_toBottomOf="@id/signUp_text_2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_manbo_alpha50"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/signUp_nickname"/>
+
+    <EditText
+        android:id="@+id/signUp_referee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:textSize="24dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/kopubworld_dotum_light"
+        android:inputType="text"
+        android:paddingLeft="50dp"
+        android:hint="추천인코드 입력"
+        app:layout_constraintTop_toBottomOf="@id/signUp_nickname"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/color_manbo_alpha50"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@id/signUp_referee"/>
+
+
+
+    <Button
+        android:id="@+id/body_confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/color_manbo_alpha50"
+        android:text="확 인"
+        android:gravity="center"
+        android:textSize="16dp"
+        android:textColor="@color/home_cash_"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

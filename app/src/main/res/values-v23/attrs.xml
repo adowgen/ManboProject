@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ScalableLayout">
+        <attr name="scale_base_width" format="float" />
+        <attr name="scale_base_height" format="float" />
+        <attr name="scale_textsize" format="float" />
+        <attr name="scale_top" format="float" />
+        <attr name="scale_left" format="float" />
+        <attr name="scale_width" format="float" />
+        <attr name="scale_height" format="float" />
+        <attr name="textview_wrapcontent_direction" format="string" />
+        <attr name="textview_wrapcontent_resizesurrounded" format="boolean" />
+        <attr name="textview_wrapcontent_movesiblings" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="WeekView">
+        <attr name="wv_backgroundColor" format="reference|color" />
+        <attr name="wv_verticalPadding" format="reference|dimension" />
+        <attr name="wv_horizontalPadding" format="reference|dimension" />
+        <attr name="wv_animDuration" format="reference|integer" />
+    </declare-styleable>
+    <declare-styleable name="ContactView">
+        <attr name="cv_buttonSrc" format="reference" />
+        <attr name="cv_buttonSize" format="reference|dimension" />
+        <attr name="cv_avatarSrc" format="reference" />
+        <attr name="cv_avatarSize" format="reference|dimension" />
+        <attr name="cv_spacing" format="reference|dimension" />
+        <attr name="cv_name" format="reference|string" />
+        <attr name="cv_nameTextAppearance" format="reference" />
+        <attr name="cv_nameTextSize" format="reference|dimension" />
+        <attr name="cv_nameTextColor" format="reference|color" />
+        <attr name="cv_address" format="reference|string" />
+        <attr name="cv_addressTextAppearance" format="reference" />
+        <attr name="cv_addressTextSize" format="reference|dimension" />
+        <attr name="cv_addressTextColor" format="reference|color" />
+        <attr name="android:minHeight" />
+    </declare-styleable>
+    <declare-styleable name="ContactEditText">
+        <attr name="cet_spanHeight" format="reference|dimension" />
+        <attr name="cet_spanMaxWidth" format="reference|dimension" />
+        <attr name="cet_spanPaddingLeft" format="reference|dimension" />
+        <attr name="cet_spanPaddingRight" format="reference|dimension" />
+        <attr name="cet_spanFontFamily" format="reference|string" />
+        <attr name="cet_spanTextStyle" format="integer">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+            <enum name="bold_italic" value="3" />
+        </attr>
+        <attr name="cet_spanTextSize" format="reference|dimension" />
+        <attr name="cet_spanTextColor" format="reference|color" />
+        <attr name="cet_spanBackgroundColor" format="reference|color" />
+        <attr name="cet_spanSpacing" format="reference|dimension" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="StaggeredGridView">
+        <attr name="column_count" format="integer" />
+        <attr name="column_count_portrait" format="integer" />
+        <attr name="column_count_landscape" format="integer" />
+        <attr name="item_margin" format="dimension" />
+        <attr name="grid_paddingLeft" format="dimension" />
+        <attr name="grid_paddingRight" format="dimension" />
+        <attr name="grid_paddingTop" format="dimension" />
+        <attr name="grid_paddingBottom" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+
+</resources>

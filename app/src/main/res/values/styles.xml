@@ -1,0 +1,44 @@
+<resources>
+
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="Theme.manboTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+
+    </style>
+
+    <!--Activity 투명배경    -->
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:drawable/screen_background_dark_transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+
+    <!-- 프로필 크롭 Activity -->
+
+    <style name="Theme.ImageCrop" parent="@style/Theme.AppCompat">
+        <item name="colorPrimary">@color/corlor_white</item>
+        <item name="titleTextColor">@color/corlor_black</item>
+        <item name="actionMenuTextColor">@color/corlor_black</item>
+        <item name="android:textColorPrimary">@color/corlor_black</item>
+    </style>
+
+
+
+
+</resources>

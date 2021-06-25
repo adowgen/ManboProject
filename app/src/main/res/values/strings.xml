@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_name">만보캐시</string>
+    <string name="default_notification_channel_id">default_notification_channel_id</string>
+    <string name="default_notification_channel_name">manbo</string>
+
+    <!--카카오 앱키-->
+    <string name="kakao_app_key">bb7ab942f356d4d5ae1e5f3f5bdccb81</string>
+
+    <!--facebook-->
+    <string name="facebook_app_id">2231094120484865</string>
+    <string name="fb_login_protocol_scheme">fb2231094120484865</string>
+
+
+    <!--bottom menu-->
+    <string name="bot_menu_home">홈화면</string>
+    <string name="bot_menu_chart">통계</string>
+    <string name="bot_menu_store">스토어</string>
+    <string name="bot_menu_set">설정</string>
+
+    <!--tutorial text-->
+    <string name="action_settings">Setting</string>
+    <string name="first_text">안녕하세요\n하루만보, 건강한 캐시앱\n만보캐시입니다.</string>
+    <string name="second_text">하루에 만보까지\n걸은 숫자만큼\n캐시로 전환이 가능합니다</string>
+    <string name="third_text">캐시로 스토어에서 상품을 구매하고\n얼마나 걸었는지 통계에서\n확인할 수 있습니다</string>
+    <string name="fourth_text">지금 바로\n만보캐시와 함께\n건강한 돈벌기를시작하세요 :)</string>
+
+    <!--kakao Login text-->
+    <string name="logout">Logout</string>
+    <string name="profile_picture">Profile Picture:</string>
+    <string name="display_name">Display Name:</string>
+    <string name="login_failed">Login failed.</string>
+    <string name="email_text">Email:</string>
+
+
+    <string name="findPW"><u>비밀번호찾기</u></string>
+    <string name="signup"><u>회원가입</u></string>
+
+    <!--Dialog Alert Text-->
+    <string name="dialog_errorTitle">알 림</string>
+    <string name="dialog_errorEmptyText">빈칸이 없이 입력해 주세요</string>
+    <string name="dialog_errorEmail">이메일 형식이 맞지 않습니다</string>
+    <string name="dialog_errorPassword">비밀번호는 영문/숫자/특수문자 중\n2개이상을 조합하여 만들어주세요</string>
+    <string name="dialog_errorNoPassword">입력하신 비밀번호가 일치하지 않습니다</string>
+
+
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="validation_server_domain">https://us-central1-manbocash-7aa7e.cloudfunctions.net</string>
+</resources>

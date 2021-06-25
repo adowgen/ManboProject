@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('IgawAdPopcorn_v7.0.5a.aar'))

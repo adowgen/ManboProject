@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>android_version</key>
+        <value>1.0</value>
+    </entry>
+    <entry>
+        <key>main_greeting</key>
+        <value>안녕하세요. %id% 님</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

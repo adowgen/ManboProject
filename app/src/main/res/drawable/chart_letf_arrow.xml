@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/corlor_white"/>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/chart_date_left_arrow_img"/>
+    </item>
+</layer-list>

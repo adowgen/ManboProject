@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_gray_ChryslerWhite_alpha90">#E6f0f0f0</color>
+    <color name="color_gray_ChryslerWhite_alpha70">#B3f0f0f0</color>
+    <color name="color_gray_ChryslerWhite">#f0f0f0</color>
+    <color name="color_gray">#c3c3c2</color>
+    <color name="color_gray2">#e5e5e5</color>
+    <color name="color_setting_item_back">#f6fcff</color>
+    <color name="color_darkv">#4f70cf</color>
+    <color name="color_ggray">#7a7a7a</color>
+    <color name="corlor_white">#ffffff</color>
+    <color name="corlor_black">#000000</color>
+    <color name="corlor_black_alpha80">#CC000000</color>
+    <color name="whitblue">#FFDEEAFC</color>
+
+
+    <color name="color_common">#3e63b4</color>
+
+    <color name="color_intro">#fce51d</color>
+    <color name="color_blue">#4f70cf</color>
+
+    <color name="color_red">#ff0000</color>
+
+    <color name="color_manbo">#30D7D7</color>
+    <color name="color_manbo_alpha50">#8030D7D7</color>
+    <color name="color_manbo_alpha70">#B330D7D7</color>
+
+    <color name="color_bot_item_on">#48AAA7</color>
+    <color name="color_bot_item_off">#494949</color>
+
+    <color name="home_cash_">#34556B</color>
+    <color name="shopFabRipple">#51b2ac</color>
+
+
+    <!--<color name="colorfirstinstall">#1C509B</color>-->
+    <color name="colorPrimary">#FF03A9F4</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF00E5FF</color>
+    <!--<color name="colorControlNormal">#FF78909C</color>-->
+    <color name="colorControlActivated">#FF03A9F4</color>
+    <!--<color name="colorSwitchThumbNormal">#FF78909C</color>-->
+    <color name="transparent">#00000000</color>
+
+    <color name="payback_bgColor">#FFB5D4FF</color>
+
+    <array name="progress_colors">
+        <item>#FF3F8AF8</item>
+        <item>#FFD8433C</item>
+        <item>#FFF2AF3A</item>
+        <item>#FF279B5E</item>
+    </array>
+
+    <array name="in_colors">
+        <item>#FFB5D4FF</item>
+        <item>#FFDEEAFC</item>
+        <item>#FFFAFFFE</item>
+    </array>
+
+    <color name="rb_checked">#FF4CAF50</color>
+    <color name="rb_unchecked">#FF6D6D6D</color>
+    <color name="rb_disable">#FFB0B0B0</color>
+
+    <color name="tpi_checked">#FFFFFFFF</color>
+    <color name="tpi_unchecked">#99FFFFFF</color>
+
+    <color name="et_divider_focused">@color/colorControlActivated</color>
+    <color name="et_divider_not_focused">#FF6D6D6D</color>
+    <color name="et_divider_disable">#FFC1C1C1</color>
+
+
+
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="keywordlogtopColor">#4f70cf</color>
+
+
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="red">#FF3B00</color>
+    <color name="red_press">#990000</color>
+    <color name="red_tomato">#ff6347</color>
+    <color name="red_fire">#DB5353</color>
+    <color name="dark_gray">#4C535B</color>
+    <color name="dark_gray_press">#ff7e8a97</color>
+
+
+    <color name="beige">#f5f5dc</color>
+    <color name="beige_alpha50">#80f5f5dc</color>
+
+</resources>

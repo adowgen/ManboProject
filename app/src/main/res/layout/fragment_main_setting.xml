@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/corlor_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="설정"
+        android:textSize="22dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/corlor_black"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/appVersion_key"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="앱 버전"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/appVersion_value"
+        />
+
+    <TextView
+        android:id="@+id/appVersion_value"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="1.0.1"
+        android:textColor="@color/color_gray"
+        android:gravity="right|center"
+        android:textSize="15dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/appVersion_key"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/appVersion_value"
+        ></FrameLayout>
+
+    <TextView
+        android:id="@+id/userName_key"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="이름"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/appVersion_key"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/userName_value"
+        />
+
+    <TextView
+        android:id="@+id/userName_value"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="jkyang83"
+        android:textColor="@color/color_gray"
+        android:gravity="right|center"
+        android:textSize="15dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginRight="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/appVersion_key"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/appVersion_key"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/userName_key"
+        ></FrameLayout>
+
+    <TextView
+        android:id="@+id/recomm_key"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="추천코드"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/userName_key"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/shareBtn"
+        />
+
+
+    <ImageView
+        android:id="@+id/shareBtn"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/share_recomm_id"
+        app:layout_constraintTop_toBottomOf="@+id/userName_key"
+        app:layout_constraintRight_toLeftOf="@+id/recomm_value"
+        app:layout_constraintLeft_toRightOf="@+id/recomm_key"
+        />
+
+    <TextView
+        android:id="@+id/recomm_value"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="abcdee"
+        android:textColor="@color/color_manbo"
+        android:gravity="right|center"
+        android:textSize="15dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginRight="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/userName_key"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/shareBtn"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/recomm_key"
+        ></FrameLayout>
+
+    <TextView
+        android:id="@+id/myCoupon_key"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="내 쿠폰함"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/recomm_value"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/myCoupon_value"
+        />
+
+    <ImageView
+        android:id="@+id/myCoupon_value"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/setting_right_arrow"
+        app:layout_constraintTop_toBottomOf="@+id/recomm_value"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/myCoupon_key"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/myCoupon_key"
+        ></FrameLayout>
+
+    <TextView
+        android:id="@+id/history_key"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="캐시 사용내역"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/myCoupon_value"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/history_value"
+        />
+
+    <ImageView
+        android:id="@+id/history_value"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/setting_right_arrow"
+        app:layout_constraintTop_toBottomOf="@+id/myCoupon_value"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/history_key"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/history_key"
+        ></FrameLayout>
+
+    <TextView
+        android:id="@+id/confirm_key"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="이용약관"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/history_value"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/confirm_value"
+        />
+
+    <ImageView
+        android:id="@+id/confirm_value"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/setting_right_arrow"
+        app:layout_constraintTop_toBottomOf="@+id/history_value"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/confirm_key"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_key"
+        ></FrameLayout>
+
+    <TextView
+        android:id="@+id/private_key"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="개인정보보"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_value"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/private_value"
+        />
+
+    <ImageView
+        android:id="@+id/private_value"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/setting_row_height"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/setting_right_arrow"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_value"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/private_key"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/private_key"
+        ></FrameLayout>
+
+    <TextView
+        android:id="@+id/setting_logout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="로그아웃"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/private_value"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/userName_value"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/setting_logout"
+        ></FrameLayout>
+
+    <TextView
+        android:id="@+id/setting_withdrawal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setting_row_height"
+        android:text="회원탈퇴"
+        android:textColor="@color/dark_gray"
+        android:gravity="left|center"
+        android:textSize="16dp"
+        android:fontFamily="@font/kopubworld_dotum_bold"
+        android:layout_marginLeft="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/setting_logout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/userName_value"
+        />
+
+    <FrameLayout
+        android:id="@+id/lastline"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/color_gray"
+        app:layout_constraintTop_toBottomOf="@+id/setting_withdrawal"
+        ></FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/color_gray_ChryslerWhite"
+        app:layout_constraintTop_toBottomOf="@+id/lastline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="manbocash"
+        android:fontFamily="@font/nexen_bold"
+        android:textColor="@color/color_gray"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

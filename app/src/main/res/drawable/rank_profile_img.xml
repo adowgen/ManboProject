@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@color/transparent"/>
+
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/rank_empty_pr"/>
+    </item>
+
+</layer-list>
